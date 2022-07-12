@@ -18,3 +18,11 @@ syslogproject.py:       This script was written for a google certificate course 
                         and user_statistics.csv lists the users and each INFO and ERROR entry for each
                         user.
 
+gdp_project.py:         This script was written for a data analysis course on codecademy, It takes 
+                        all_data.csv, uses pandas to make a dataframe and with that dataframe then, 
+                        uses pyplot to make two figures. The first figure compares gdp and life expectancy
+                        over time, splitting it into two categories: top 3 gdp earners and bottom
+                        3 gdp earners. The second figure has two plots, the first one compares 
+                        the life expectancy over time for all countries excluding the outlier zimbabwe. 
+                        The second one plots life expectancy over time of all countries including the
+                        outlier zimbabwe.
