@@ -35,9 +35,6 @@ plt.show()
 # compare mean of the predictions to the mean of the actual data
 print(np.mean(results.predict()))
 print(np.mean(diabetes_bp_bmi.BloodPressure))
-ax = plt.subplot(1, 2, 2)
-ax.bar(diabetes.Outcome, diabetes.BloodPressure)
-ax.set_xticks(range(len([1, 2])))
-ax.set_xticklabels(('Diabetes', 'No Diabetes'))
+
 
 plt.show()
